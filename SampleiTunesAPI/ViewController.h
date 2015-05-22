@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,AVAudioPlayerDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+
+@property(nonatomic) AVAudioPlayer *audioPlayer;
 
 
 @end

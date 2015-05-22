@@ -14,6 +14,8 @@
 		1B5D44D31B0D670E00E5F404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D44D21B0D670E00E5F404 /* Images.xcassets */; };
 		1B5D44D61B0D670E00E5F404 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D44D41B0D670E00E5F404 /* LaunchScreen.xib */; };
 		1B5D44E21B0D670E00E5F404 /* SampleiTunesAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D44E11B0D670E00E5F404 /* SampleiTunesAPITests.m */; };
+		1B5D44EC1B0D809C00E5F404 /* sound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D44EB1B0D809C00E5F404 /* sound.jpg */; };
+		1BCE65311B0EC01600299E45 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCE65301B0EC01600299E45 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		1B5D44DB1B0D670E00E5F404 /* SampleiTunesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleiTunesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5D44E01B0D670E00E5F404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5D44E11B0D670E00E5F404 /* SampleiTunesAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleiTunesAPITests.m; sourceTree = "<group>"; };
+		1B5D44EB1B0D809C00E5F404 /* sound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sound.jpg; sourceTree = "<group>"; };
+		1BCE65301B0EC01600299E45 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCE65311B0EC01600299E45 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		1B5D44B91B0D670E00E5F404 = {
 			isa = PBXGroup;
 			children = (
+				1BCE65301B0EC01600299E45 /* AVFoundation.framework */,
 				1B5D44C41B0D670E00E5F404 /* SampleiTunesAPI */,
 				1B5D44DE1B0D670E00E5F404 /* SampleiTunesAPITests */,
 				1B5D44C31B0D670E00E5F404 /* Products */,
@@ -96,6 +102,7 @@
 		1B5D44C51B0D670E00E5F404 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B5D44EB1B0D809C00E5F404 /* sound.jpg */,
 				1B5D44C61B0D670E00E5F404 /* Info.plist */,
 				1B5D44C71B0D670E00E5F404 /* main.m */,
 			);
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5D44D11B0D670E00E5F404 /* Main.storyboard in Resources */,
+				1B5D44EC1B0D809C00E5F404 /* sound.jpg in Resources */,
 				1B5D44D61B0D670E00E5F404 /* LaunchScreen.xib in Resources */,
 				1B5D44D31B0D670E00E5F404 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +424,7 @@
 				1B5D44E71B0D670E00E5F404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B5D44E81B0D670E00E5F404 /* Build configuration list for PBXNativeTarget "SampleiTunesAPITests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				1B5D44EA1B0D670E00E5F404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
